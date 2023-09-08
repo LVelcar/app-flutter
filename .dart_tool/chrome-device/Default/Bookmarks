@@ -1,13 +1,203 @@
 {
-   "checksum": "1e16028eea5dca84284463f11524c1db",
+   "checksum": "5e8dfdc9990e2f66b4a7f67a659c78e3",
    "roots": {
       "bookmark_bar": {
          "children": [ {
+            "date_added": "13281220039389410",
+            "date_last_used": "0",
+            "guid": "873a16fc-e566-41d5-baac-874e09ca90e7",
+            "id": "13",
+            "name": "Gmail",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://accounts.google.com/b/0/AddMailService"
+         }, {
+            "date_added": "13281220039645984",
+            "date_last_used": "0",
+            "guid": "f6ceae77-f9d9-4b7e-afb3-5125db83db52",
+            "id": "14",
+            "name": "YouTube",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://youtube.com/"
+         }, {
+            "date_added": "13317361726293528",
+            "date_last_used": "0",
+            "guid": "d6952dc0-7d3a-4c0f-9266-376c9e0fa7b3",
+            "id": "15",
+            "name": "(204) 10 - Manejo de Eventos [Vue.js 3] - YouTube",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=MECrKp8B-7U&list=PLYAyQauAPx8l7G8lTbSv23UTAwbVORY1r&index=10"
+         }, {
+            "date_added": "13320800561096027",
+            "date_last_used": "0",
+            "guid": "44c2fb82-95b3-44a3-aae0-47217f3356b0",
+            "id": "16",
+            "name": "Google",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.google.com/"
+         }, {
+            "date_added": "13336083433160179",
+            "date_last_used": "0",
+            "guid": "166448de-135f-41c2-aa81-4a554a89b1d9",
+            "id": "17",
+            "name": "Escritorio",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://enlinea2023-2.uabcs.mx/my/"
+         }, {
+            "date_added": "13305830425021734",
+            "date_last_used": "0",
+            "guid": "2ed2cfe0-c6f8-4977-8c5f-4bd8a7f92f1d",
+            "id": "18",
+            "name": "Iconos | fuente impresionante",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://fontawesome.com/search?favorites=staff"
+         }, {
+            "date_added": "13314287302990948",
+            "date_last_used": "13336154346146505",
+            "guid": "e9f421f2-3e72-420f-968f-00289e53377b",
+            "id": "19",
+            "name": "Formato APA con el Generador APA de Scribbr",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.scribbr.es/citar/generador/apa/"
+         }, {
+            "date_added": "13322000822854998",
+            "date_last_used": "13338619943090336",
+            "guid": "768e1bb3-7efb-48ec-82ab-1805e175aac3",
+            "id": "20",
+            "name": "Habit Tracker | Diario",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.notion.so/cc97fd95590a4d02971aea271ab8d5b0?v=c84020f5560f4a0995aba689cb3160f3"
+         }, {
+            "date_added": "13303882712190724",
+            "date_last_used": "0",
+            "guid": "ceb1f8a3-757b-4758-8b67-4a2127b739c2",
+            "id": "21",
+            "name": "Base de datos de exploits: exploits para probadores de penetración, investigadores y piratas informáticos éticos",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.exploit-db.com/"
+         }, {
+            "date_added": "13337211138400936",
+            "date_last_used": "13337227623384605",
+            "guid": "45fd405e-5473-44ed-ad39-e5814c600a4b",
+            "id": "22",
+            "name": "Página principal | Microsoft 365",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.microsoft365.com/?auth=2"
+         }, {
+            "date_added": "13293568146128780",
+            "date_last_used": "0",
+            "guid": "727974fe-bfd5-4d3e-b169-80a7b6f84b81",
+            "id": "23",
+            "name": "Master en JavaScript: Aprender JS, jQuery, Angular, NodeJS | Udemy",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.udemy.com/course/master-en-javascript-aprender-js-jquery-angular-nodejs-y-mas/?couponCode=STARTABR22"
+         }, {
+            "date_added": "13302913508344805",
+            "date_last_used": "0",
+            "guid": "9efd4983-a925-40fa-ae86-5712e63d96d4",
+            "id": "24",
+            "name": "Peso en otro planeta - Platzi",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://platzi.com/clases/1050-basico-programacion/5111-peso-en-otro-planeta/"
+         }, {
+            "date_added": "13326223604611563",
+            "date_last_used": "0",
+            "guid": "2daa456a-e835-40b2-9531-ca2a3b05754f",
+            "id": "25",
+            "name": "Plantillas de producto | Printful",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.printful.com/es/dashboard/product-templates?sortBy=created&sortDir=desc&page=1"
+         }, {
+            "date_added": "13326837904976029",
+            "date_last_used": "0",
+            "guid": "88d69154-2890-4021-8ac5-faa2b1e0557c",
+            "id": "26",
+            "name": "INTELIGENCIA ARTIFICIAL DE CAJA NEGRA",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.useblackbox.io/"
+         }, {
+            "date_added": "13312584961533454",
+            "date_last_used": "0",
+            "guid": "9a6b1e01-55a4-446d-9fff-c62e4213ca83",
+            "id": "27",
+            "name": "Aprende con Alf",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://aprendeconalf.es/#about"
+         }, {
+            "date_added": "13262722063666404",
+            "date_last_used": "0",
+            "guid": "2f4c732d-407c-4027-82a1-08568eccaddf",
+            "id": "28",
+            "name": "1020124183_012.pdf",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "http://cdigital.dgb.uanl.mx/la/1020124183/1020124183_012.pdf"
+         }, {
+            "date_added": "13303886506425948",
+            "date_last_used": "0",
+            "guid": "2f9c489b-d2e7-44d2-a369-ec383c732eb6",
+            "id": "29",
+            "name": "Instalación del entorno de pruebas Kali Linux - Platzi",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://platzi.com/clases/1583-ethical-hacking/19725-instalacion-del-entorno-de-pruebas-kali-linux/"
+         }, {
+            "date_added": "13308256321346270",
+            "date_last_used": "0",
+            "guid": "f22508c7-0221-44d9-a87c-5a5bd2236be7",
+            "id": "30",
+            "name": "Guía de estilo: estructura HMTL de cuestionarios, quizzes y encuestas – Cool Tabs HelpDesk",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://help.cool-tabs.com/hc/es/articles/360007462234-Gu%C3%ADa-de-estilo-estructura-HMTL-de-cuestionarios-quizzes-y-encuestas"
+         }, {
+            "date_added": "13312526258595583",
+            "date_last_used": "0",
+            "guid": "7d125091-4e5b-4b2c-88e9-7e29f68d6d75",
+            "id": "31",
+            "name": "main.py - EjerciciosPy - Replit",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://replit.com/@Luis-Alberto156/EjerciciosPy#main.py"
+         }, {
             "children": [ {
                "date_added": "13281219087713879",
                "date_last_used": "0",
-               "guid": "515e6bd0-1b14-425f-bb47-a0b05067ad34",
-               "id": "7",
+               "guid": "373264ff-adfe-4f1e-843a-808adeb5a864",
+               "id": "33",
                "name": "Dell Auction",
                "show_icon": false,
                "source": "import_fre",
@@ -16,8 +206,8 @@
             }, {
                "date_added": "13281219087713879",
                "date_last_used": "0",
-               "guid": "4812ea9b-f553-4302-b7f9-9ba98263c74a",
-               "id": "9",
+               "guid": "81004656-63d1-40d0-b652-51c263052ade",
+               "id": "34",
                "name": "Dell",
                "show_icon": false,
                "source": "import_fre",
@@ -26,8 +216,8 @@
             }, {
                "date_added": "13281219087713879",
                "date_last_used": "0",
-               "guid": "cb9d629a-6c83-4a0e-b839-37a10d6d2d45",
-               "id": "11",
+               "guid": "38673c9d-45da-46de-82b2-54c710abf903",
+               "id": "35",
                "name": "Support.Dell.Com",
                "show_icon": false,
                "source": "import_fre",
@@ -37,8 +227,8 @@
             "date_added": "13338621351788444",
             "date_last_used": "0",
             "date_modified": "0",
-            "guid": "1c7a3461-8938-4ca3-bb66-adbfa0339a4f",
-            "id": "6",
+            "guid": "56752c28-2ddd-4585-9237-489ce5525042",
+            "id": "32",
             "name": "Dell",
             "source": "import_fre",
             "type": "folder"
@@ -75,5 +265,6 @@
          "type": "folder"
       }
    },
+   "sync_metadata": "CjEKDgiIgQISCETmGnOKAQAAEgAgASoYNkhoREoyQ2RBenVZVDVXUTVLRzFyQT09oAYMEqgBCCMSowEKHGdSN2xhSWE3VFVNOHA4ZVJocWZGZjNON1pRWT0SJDM4NjczYzlkLTQ1ZGEtNDZkZS04MmIyLTU0YzcxMGFiZjkwMxgAIAAoADD9h+fIpTE4u43nyKUxQLuN58ilMUocWmhQZ0NHZG56bFZ4ZHRUcjJuYzJ4SmRhUS9nPVofIh3WTU9WbkwxOVJsQjN5bVBzVWRabWtUdGV4ck5NPWUAAAAAEqsBCB4SpgEKHGlsN3VibVZucGFJejAzY08zTUFzTUUza002Yz0SJGYyMjUwOGM3LTAyMjEtNDRkOS1hODdjLTVhNWJkMjIzNmJlNxgAIAIoAjC7zOuYpzE40b/B1egwQI3r6pinMUocckVrd1dqQ2ovajNITERPVzYrck5IWlZqWWFBPVoiIiD///+zQWpnRzlVUzlld3I5eFQxejdOcTdyZjRNU1JJPWW3+PMGEqsBCB0SpgEKHFRCbkhvM1MvUk1pVlFHMXJFSXFEWlA1NXVwMD0SJDJmOWM0ODliLWQyZTctNDRkMi1hMzY5LWVjMzgzYzczMmViNhgAIAIoAjC9zOuYpzE4r8DB1egwQI3r6pinMUocUHpQeVR4VENuTXFMZVBRVXh6ZmpPMk9XcTE4PVoiIiD///+fa3MreUo3K3ArV053TmVLa29tN0hTL2MzQjY0PWVgyKxxEqoBCBQSpQEKHFQzZ012VVNJRWg1c3NDclFUUkZDNk80SFVOMD0SJDc2OGUxYmIzLTdlZmItNDhlYy04MmFiLTE4MDVlMTc1YWFjMxgAIAIoAjC1zOuYpzE4ooSoo+kwQIvr6pinMUocaFM5YjNwVHI5dmN5WVlSTDhkVGpQOFFaTUpJPVohIh///9gyOTFNMFVsQVRiYXU3am5oNUVROHB1RHFpOGc9ZT6bsiASqgEIGRKlAQocUUVkbks5VWRNTnFQMG9ndG16SWlCbVdjc0h3PRIkMmRhYTQ1NmEtZTgzNS00MGIyLTk1MzEtY2EyYTNiMDU3NTRmGAAgAigCMLzM65inMTi9lPKA+TBAjOvqmKcxShxnZFBvTXpibEhyQlJyWFRiaVdRSmNGR2t0Z2s9WiEiH////lFXWjhKSnBidW9Sb0hIMnZzdXFVLzFmcXJabz1lAVKL1BKoAQgiEqMBChwxSkZJMitBSzdXbnQxQS9KZnN1L1laS2Q5Rkk9EiQ4MTAwNDY1Ni02M2QxLTQwZDAtYjY1Mi01MWMyNjMwNTJhZGUYACAAKAAw/IfnyKUxOKeN58ilMUCnjefIpTFKHFZoSmZhQ2IyakR2U24yK2tsNldEMlpDMEhyOD1aHyIdrFZCbkRtcVp4TlJaVEl5b2NaUEVNcDZvVEhjTT1lAAAAABKnAQgNEqIBChxGSjdranQ0RVRpV2dGTThvQTdhejYrWTVxd1E9EiQ4NzNhMTZmYy1lNTY2LTQxZDUtYmFhYy04NzRlMDljYTkwZTcYACACKAIwuszrmKcxOJKlna3tL0CK6+qYpzFKHHVFWGJuTVhTaFRNOUltSWJRbVJOMVVIY3V0QT1aHiIcTjB1NHEwQnJSWVdTSG9SMWhOSWZBL3BFWVhBPWWLoIzREqsBCB8SpgEKHHY1T0ppMk9IYUJoa1I1NGJXVkpjd3Y1bFhEST0SJDdkMTI1MDkxLTRlNWItNGIyYy04OGU5LTdlMjlmNjhkNmQ3NRgAIAIoAjC2zOuYpzE4877B1egwQI3r6pinMUocUytjVDZLWU1JOHAzUVlEQXFlMW9zOFlqNmRRPVoiIiD////ZVUtBNllxcHZsUGZCV2gxU0NnODM5ZmVTTXc0PWX8m8TzEqkBCBISpAEKHGVYSkNBUWgvNmIya2ZnNmxTN00ybEVUUE9Sdz0SJDJlZDJjZmUwLWM2ZjgtNDk3Ny04YzVmLTRiZDhhN2Y5MmYxZBgAIAAoADDx77rYpjE41L7B1egwQNS+wdXoMEocbkRLbGFvMW5WbnhiL1VrNFcyaFhvTnV6YmRrPVogIh7/+zJmWFBZOXhFeXdZRnBnMjJsZ0lta2pmalNVQT1lAAAAABKqAQgXEqUBChxPWW1Ma1lxaDh3SkVkblB2ZmtLQ2U1enJ0MTg9EiQ3Mjc5NzRmZS1iZmQ1LTRkM2UtYjE2OS04MGE3YjZmODRiODEYACAAKAAw8O+62KYxOMHTg57qMEDB04Oe6jBKHGY5THh4d1Y0YTZqQzRid2I3U0dXZ1VhK2I2az1aISIf///7Z1JZblRRZ3ZIQmVwaU5xK3UwMHM2bGNQa01BPWUAAAAAEqcBCCESogEKHFRIY2FvMk1BeGZXOUh3bXp1YTBNV0hyUk5JST0SJDM3MzI2NGZmLWFkZmUtNGYxZS04NDNhLTgwOGFkZWI1YTg2NBgAIAAoADD7h+fIpTE4ho3nyKUxQIaN58ilMUocblBVa3JEQWM0Ri9nWTJsbXdiSGFpdGFQaDRBPVoeIhxYbFpOcHFyM2FlNEhES0VZaXc1MWhybkxCOEE9ZQAAAAASqgEIGhKlAQocOGxKdyt1b3RPU09McS9QV0tsOWdsZkV0N0w0PRIkODhkNjkxNTQtMjg5MC00MDIxLThhYzUtZmFhMmIxZTA1NTdjGAAgACgAMPXR56X7MDif0uel+zBAn9LnpfswShxNVXhJWDRvWUpKTktJZTMzMDlCZXR4blZrdDA9WiEiH////zhLZGpjQWRaSEk4T0NWNk1RN1ZBSFhzMVFCND1lAAAAABKqAQgVEqUBChwzdjloaTFTYjF0eWZjNEh1cWRGWmtWSExWNzg9EiRjZWIxZjhhMy03NTdiLTQ3NTgtOGI2Ny00YTIxMjdiNzM5YzIYACAAKAAw8u+62KYxOKW+wdXoMEClvsHV6DBKHERUaW1Bc0tsZ1ZjU3FjK3NQdCs3WmlSSTdtbz1aISIf///dakdpY0lHa1dCejFHbENtN1dnTjV4S0l1SWhNPWUAAAAAEqgBCBASowEKHHlsdXpESHFNTGRuUkxUNFpVZE9IVnorMW42RT0SJDQ0YzJmYjgyLTk1YjMtNDRhMy1hYWUwLTQ3MjE3ZjMzNTZiMBgAIAIoAjC5zOuYpzE4i4/+5uQwQIrr6pinMUocWmxtcGNlYTI3RXVYVlk3VURZR2xiTm9uOFNNPVofIh3/VGFJbG0ybmtGeVZaUTk1OHluTDBoVmd5TVI0PWUQMP/kEqsBCBsSpgEKHE9uUjJZMXN3QWJuTlowcEdPT1ljcnlPb1lmdz0SJDlhNmIxZTAxLTU1YTQtNDQ2ZC05ZmZmLWM2MmU0MjEzY2E4MxgAIAIoAjC0zOuYpzE4j8DB1egwQIzr6pinMUocQjJKUEJYS2xGbHJGY2ZGWGpUMXFqYnRzTzB3PVoiIiD///+MWDFCZ2h4UFdRZEhrNTdSbVZVcnFuZjE1VXd3PWXLIhBDEqoBCBgSpQEKHEVUQWZDcCtod3h3NWZ3Vi90QzJYWkV6TzU0QT0SJDllZmQ0OTgzLWE5MjUtNDBmYS1hZTg2LTU3MTJlNjNkOTZkNBgAIAIoAjC4zOuYpzE4r9SDnuowQIvr6pinMUocdWZPRFBzeWJNYmhLcllmc1YweWU4MlhJd0hBPVohIh////1KSzhaU1MyL3NEZ3RGQ1g4TS8vZVdneTVVNnc9ZWDIrHESiQEIAxKEAQocbmpnRHU4OGVDcnZYcDg2cEQ3ZkhHY3FGcDg4PRIkZDg1YmM1NzctMWQyNy01YjA4LWIxNWMtZjFjMjc4YzgxNzY0GAAgACgAMIr/n86wMDibnZ2t7S9Am52dre0vShx5ek5CMDFjbjU0QTdjUlUwdVQrL1BnbVR0VW89WgBlAAAAABKnAQgOEqIBChxIZHk0bTYxa1Q0dlRBRGEzR0VOMFRocFI4YUk9EiRmNmNlYWU3Ny1mOWQ5LTRiN2UtYWZiMy01MTI1ZGI4M2RiNTIYACACKAIwt8zrmKcxOM6mna3tL0CK6+qYpzFKHGQrclBDRWlLNmlubWJtL3dlYVZjK2NSOHZQVT1aHiIcZU1wUVhkQW1pdmtKN2lUdXM5MllMTFByWmZRPWU4+TkzEqgBCA8SowEKHEErc2REeEVUMjhWU1d6NUZMbnhxMi9TdkxVND0SJGQ2OTUyZGMwLTdkM2EtNGMwZi05MjY2LTM3NmM5ZTBmYTdiMxgAIAIoAjCzzOuYpzE4oM2b/9cwQIrr6pinMUocODE3b2Y0RGxteTlKK1FnSXl4Q2JkRnNscHQ4PVofIh3/SlU0ck45NHJuSERDcjZTT1VXdm5jSTV4SWJ3PWU4+TkzEqoBCBMSpQEKHHhXVkxNTmxEZkNSQUdYeWFKR3h4WFl3NWhkOD0SJGU5ZjQyMWYyLTNlNzItNDIwZi05NjhmLTAwMjg5ZTUzMzc3YhgAIAAoADDv77rYpjE4vsDB1egwQL7AwdXoMEocSHk2cXpjQTh6Mi9oZXgrM29wblFzRWY0dG1VPVohIh///7FLN2t5NndKK0xpdEJYVUlNdHZvb2JYVXA5cGc9ZQAAAAASiQEIARKEAQoceXhKLzZmdmtlY3I3a3A1RVF6QjR0V0xwZGJFPRIkNTNhZjYyMDMtNjBhYi01NjgxLTkzM2UtZWZmMmJlMTY2ZmE4GAAgACgAMIr/n86wMDi9nJ2t7S9AvZydre0vShxhUkNXTGdoRjliNUlucUtJRHZ1Si9qdlFrRmM9WgBlAAAAABKrAQggEqYBChxydCs4eDFISnIzZnZVVlk4Qm4xSlhYNDdWUTQ9EiQ1Njc1MmMyOC0yZGRkLTQ1ODUtOTIzNy00ODljZTU1MjUwNDIYACAAKAAw+ofnyKUxOOaM58ilMUDmjOfIpTFKHGt5b3lSZGxBZzFhWXJrZU5xKzhvTFd6bDBhVT1aIiIg////7HR2dUdjd0NMb2c2ckd1bTBsTElWeTcvbTNUND1lAAAAABKJAQgCEoQBChxZY1NUb252RVNQd3FDczRMMmNyVmh2NjhMOTg9EiQ2MGU4NmU5Mi03ZTEyLTViOTgtYWQwYy00YTdlMjE5NWUwNWUYACAAKAAwiv+fzrAwOM2cna3tL0DNnJ2t7S9KHG9QVmtod0JSYlY2NUtDV1IyK0lPTkhXb091OD1aAGUAAAAAEqkBCBESpAEKHE05THZWZVFRdWV5Nm8wSWpoTTJvb285M2ZmTT0SJDE2NjQ0OGRlLTEzNWYtNDFjMi1hYTgxLTRhNTU0YTg5YjFkORgAIAIoAjCyzOuYpzE42N223p0xQIvr6pinMUocazNMSUhPRmE4S1BPMXpzbWxCdUFQcUNsR3NRPVogIh7/xk82QW1aZi9sVHhvQ3R4bXdNNll4VkxaTitXND1lISEAWxKrAQgcEqYBChxtTnhaWWg1STc3bnRyR0MzR1VyRlBlcWVpbGc9EiQyZjRjNzMyZC00MDdjLTQwMjctODJhMS0wODU2OGVjY2FkZGYYACAAKAAwrODRxKIxOJLTg57qMECS04Oe6jBKHDZGbkhlMkR6VEU2SFNNTEt5bkR5cjVWYSt0RT1aIiIg////lXBQU1UzNnZ2Nnp0NjBDWHJkbDJuNXVXQi9xOD1lAAAAABKqAQgWEqUBChwxZUo2YW1OZ0l2OUhRY0J3cSthTGFzek1tU0k9EiQ0NWZkNDA1ZS01NDczLTQ0ZWQtYWQzOS1lNTgxNGM2MDBhNGIYACAAKAAw7u+62KYxOPyjlPihMUD8o5T4oTFKHGpSVGtFdVQ0eVJUOTBId2JLck9HMlBWRnlMZz1aISIf///4Zm91MXk5aGIrMW53SWtlRTMzTmt6Tjc0NVZJPWUAAAAAMAA4AA==",
    "version": 1
 }
