@@ -1,3 +1,7 @@
-2023/09/07-21:44:02.181 37a0 Reusing MANIFEST C:\Users\luisv\AppData\Local\Temp\flutter_tools.b5949095\flutter_tools_chrome_device.91adf69a\Default\Asset Store\assets.db/MANIFEST-000001
-2023/09/07-21:44:02.184 37a0 Recovering log #3
-2023/09/07-21:44:02.186 37a0 Reusing old log C:\Users\luisv\AppData\Local\Temp\flutter_tools.b5949095\flutter_tools_chrome_device.91adf69a\Default\Asset Store\assets.db/000003.log 
+2023/09/07-21:52:41.814 3b84 Reusing MANIFEST C:\Users\luisv\AppData\Local\Temp\flutter_tools.c7e78586\flutter_tools_chrome_device.d6fce958\Default\Asset Store\assets.db/MANIFEST-000001
+2023/09/07-21:52:41.815 3b84 Recovering log #3
+2023/09/07-21:52:42.866 3b84 (ignoring error) C:\Users\luisv\AppData\Local\Temp\flutter_tools.c7e78586\flutter_tools_chrome_device.d6fce958\Default\Asset Store\assets.db/000003.log: dropping 51910 bytes; Corruption: partial record without end(2)
+2023/09/07-21:52:42.908 3b84 (ignoring error) C:\Users\luisv\AppData\Local\Temp\flutter_tools.c7e78586\flutter_tools_chrome_device.d6fce958\Default\Asset Store\assets.db/000003.log: dropping 98283 bytes; Corruption: partial record without end(2)
+2023/09/07-21:52:43.810 3b84 Level-0 table #3: started
+2023/09/07-21:52:43.989 3b84 Level-0 table #3: 538498 bytes OK
+2023/09/07-21:52:44.051 3b84 Delete type=0 #3

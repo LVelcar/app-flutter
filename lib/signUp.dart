@@ -90,7 +90,7 @@ class SignUp extends StatelessWidget {
                     //Para agregar la lógica del login.
                   },
                   style: ElevatedButton.styleFrom(
-                    padding: const EdgeInsets.all(20.0),
+                    padding: const EdgeInsets.all(15.0),
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(30.0),
                     ),
