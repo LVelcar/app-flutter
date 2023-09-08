@@ -1,0 +1,79 @@
+{
+   "checksum": "1e16028eea5dca84284463f11524c1db",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "children": [ {
+               "date_added": "13281219087713879",
+               "date_last_used": "0",
+               "guid": "515e6bd0-1b14-425f-bb47-a0b05067ad34",
+               "id": "7",
+               "name": "Dell Auction",
+               "show_icon": false,
+               "source": "import_fre",
+               "type": "url",
+               "url": "http://www.dellauction.com/"
+            }, {
+               "date_added": "13281219087713879",
+               "date_last_used": "0",
+               "guid": "4812ea9b-f553-4302-b7f9-9ba98263c74a",
+               "id": "9",
+               "name": "Dell",
+               "show_icon": false,
+               "source": "import_fre",
+               "type": "url",
+               "url": "http://www1.la.dell.com/content/default.aspx?c=mx&l=es&s=gen"
+            }, {
+               "date_added": "13281219087713879",
+               "date_last_used": "0",
+               "guid": "cb9d629a-6c83-4a0e-b839-37a10d6d2d45",
+               "id": "11",
+               "name": "Support.Dell.Com",
+               "show_icon": false,
+               "source": "import_fre",
+               "type": "url",
+               "url": "http://www.dell.com/support/home"
+            } ],
+            "date_added": "13338621351788444",
+            "date_last_used": "0",
+            "date_modified": "0",
+            "guid": "1c7a3461-8938-4ca3-bb66-adbfa0339a4f",
+            "id": "6",
+            "name": "Dell",
+            "source": "import_fre",
+            "type": "folder"
+         } ],
+         "date_added": "13338621279273923",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Barra de favoritos",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13338621279273924",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Otros favoritos",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13338621279273926",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Favoritos móviles",
+         "source": "unknown",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}
