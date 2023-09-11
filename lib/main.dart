@@ -1,3 +1,5 @@
+// ignore_for_file: unused_element
+
 import 'package:flutter/material.dart';
 
 void main() {
@@ -58,21 +60,21 @@ class LoginPage extends StatelessWidget {
                   ),
                   const SizedBox(height: 20.0),
                   TextFormField(
-                    decoration: const InputDecoration(
-                      labelText: 'Usuario',
-                      border: OutlineInputBorder(),
-                      prefixIcon: Icon(Icons.person), // Icono de usuario
-                    ),
-                  ),
+                      decoration: const InputDecoration(
+                        labelText: 'Usuario',
+                        border: OutlineInputBorder(),
+                        prefixIcon: Icon(Icons.person), // Icono de usuario
+                      ),
+                      validator: _emailValidator),
                   const SizedBox(height: 20.0),
                   TextFormField(
-                    obscureText: true,
-                    decoration: const InputDecoration(
-                      labelText: 'Contraseña',
-                      border: OutlineInputBorder(),
-                      prefixIcon: Icon(Icons.lock), // Icono de candado
-                    ),
-                  ),
+                      obscureText: true,
+                      decoration: const InputDecoration(
+                        labelText: 'Contraseña',
+                        border: OutlineInputBorder(),
+                        prefixIcon: Icon(Icons.lock), // Icono de candado
+                      ),
+                      validator: _passwordValidator),
                   const SizedBox(height: 20.0),
                   SizedBox(
                     width: double.infinity,
@@ -110,4 +112,25 @@ class LoginPage extends StatelessWidget {
       ),
     );
   }
+}
+
+String? _emailValidator(String? value) {
+  if (value == null || value.isEmpty) {
+    return 'Por favor, ingresa tu correo electrónico';
+  }
+  bool emailValid = RegExp(
+          r"^[a-zA-Z0-9.a-zA-Z0-9.!#$%&'*+-/=?^_`{|}~]+@[a-zA-Z0-9]+\.[a-zA-Z]+")
+      .hasMatch(value);
+  if (!emailValid) {
+    return "Ingresa una dirección de correo electrónico válida";
+  }
+  return null;
+}
+
+String? _passwordValidator(String? value) {
+  if (value == null || value.isEmpty) {
+    return 'Por favor, ingresa tu contraseña';
+  }
+  // Espacio para agregar más validaciones en contraseña.
+  return null;
 }
