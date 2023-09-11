@@ -1,3 +1,4 @@
-2023/09/09-20:42:29.623 2acc Reusing MANIFEST C:\Users\luisv\AppData\Local\Temp\flutter_tools.95a774ec\flutter_tools_chrome_device.f5459dc4\Default\EntityExtractionAssetStore.db/MANIFEST-000001
-2023/09/09-20:42:29.625 2acc Recovering log #3
-2023/09/09-20:42:29.626 2acc Reusing old log C:\Users\luisv\AppData\Local\Temp\flutter_tools.95a774ec\flutter_tools_chrome_device.f5459dc4\Default\EntityExtractionAssetStore.db/000003.log 
+2023/09/11-10:20:41.180 1e44 Reusing MANIFEST C:\Users\luisv\AppData\Local\Temp\flutter_tools.5c2f8e89\flutter_tools_chrome_device.ea4d018b\Default\EntityExtractionAssetStore.db/MANIFEST-000001
+2023/09/11-10:20:41.182 1e44 Recovering log #3
+2023/09/11-10:20:41.182 1e44 (ignoring error) C:\Users\luisv\AppData\Local\Temp\flutter_tools.5c2f8e89\flutter_tools_chrome_device.ea4d018b\Default\EntityExtractionAssetStore.db/000003.log: dropping 32217 bytes; Corruption: partial record without end(1)
+2023/09/11-10:20:41.183 1e44 Reusing old log C:\Users\luisv\AppData\Local\Temp\flutter_tools.5c2f8e89\flutter_tools_chrome_device.ea4d018b\Default\EntityExtractionAssetStore.db/000003.log 
