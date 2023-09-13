@@ -7,7 +7,8 @@ void main() {
 }
 
 class MainApp extends StatelessWidget {
-  const MainApp({super.key});
+  // ignore: use_key_in_widget_constructors
+  const MainApp({Key? key});
 
   @override
   Widget build(BuildContext context) {
@@ -17,8 +18,18 @@ class MainApp extends StatelessWidget {
   }
 }
 
-class LoginPage extends StatelessWidget {
+class LoginPage extends StatefulWidget {
   const LoginPage({super.key});
+
+  @override
+  // ignore: library_private_types_in_public_api
+  _LoginPageState createState() => _LoginPageState();
+}
+
+class _LoginPageState extends State<LoginPage> {
+  final GlobalKey<FormState> keyForm = GlobalKey<FormState>();
+  final TextEditingController userCtrl = TextEditingController();
+  final TextEditingController passwordCtrl = TextEditingController();
 
   @override
   Widget build(BuildContext context) {
@@ -60,27 +71,51 @@ class LoginPage extends StatelessWidget {
                   ),
                   const SizedBox(height: 20.0),
                   TextFormField(
-                      decoration: const InputDecoration(
-                        labelText: 'Usuario',
-                        border: OutlineInputBorder(),
-                        prefixIcon: Icon(Icons.person), // Icono de usuario
-                      ),
-                      validator: _emailValidator),
+                    controller: userCtrl,
+                    decoration: const InputDecoration(
+                      labelText: 'Usuario',
+                      border: OutlineInputBorder(),
+                      prefixIcon: Icon(Icons.person), // Icono de usuario
+                    ),
+                    validator: _emailValidator,
+                  ),
                   const SizedBox(height: 20.0),
                   TextFormField(
-                      obscureText: true,
-                      decoration: const InputDecoration(
-                        labelText: 'Contraseña',
-                        border: OutlineInputBorder(),
-                        prefixIcon: Icon(Icons.lock), // Icono de candado
-                      ),
-                      validator: _passwordValidator),
+                    controller: passwordCtrl,
+                    obscureText: true,
+                    decoration: const InputDecoration(
+                      labelText: 'Contraseña',
+                      border: OutlineInputBorder(),
+                      prefixIcon: Icon(Icons.lock), // Icono de candado
+                    ),
+                    validator: _passwordValidator,
+                  ),
                   const SizedBox(height: 20.0),
                   SizedBox(
                     width: double.infinity,
                     child: ElevatedButton(
                       onPressed: () {
-                        // Para agregar la lógica del login.
+                        if (isValid) {
+                          final enteredUser = userCtrl.text;
+                          final enteredPassword = passwordCtrl.text;
+                          final isValid =
+                              keyForm.currentState?.validate() ?? false;
+
+                          //Aquí puedes agregar la lógica para verificar las credenciales.
+                          if (enteredUser == 'usuario' &&
+                              enteredPassword == 'contraseña') {
+                            setState(() {
+                              isLoggedIn = true;
+                            });
+                          } else {
+                            // Muestra un mensaje de error si las credenciales son incorrectas.
+                            ScaffoldMessenger.of(context).showSnackBar(
+                              const SnackBar(
+                                content: Text('Credenciales incorrectas'),
+                              ),
+                            );
+                          }
+                        }
                       },
                       style: ElevatedButton.styleFrom(
                         padding: const EdgeInsets.all(15.0),
@@ -97,7 +132,7 @@ class LoginPage extends StatelessWidget {
                   const SizedBox(height: 10.0),
                   TextButton(
                     onPressed: () {
-                      // Agregar lógica por si se le olvidó la contraseña.
+                      // Agregar lógica en caso de que se olvide la contraseña.
                     },
                     child: const Text(
                       '¿Olvidaste tu contraseña?',
@@ -124,13 +159,12 @@ String? _emailValidator(String? value) {
   if (!emailValid) {
     return "Ingresa una dirección de correo electrónico válida";
   }
-  return null;
+  return "Email aceptado";
 }
 
 String? _passwordValidator(String? value) {
   if (value == null || value.isEmpty) {
     return 'Por favor, ingresa tu contraseña';
   }
-  // Espacio para agregar más validaciones en contraseña.
-  return null;
+  return "Contraseña aceptada";
 }
